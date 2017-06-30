@@ -13,4 +13,4 @@ def binarySearch(a, x):
             start = mid + 1
     return False
 
-print binarySearch(a, 63)
+print(binarySearch(a, 63))

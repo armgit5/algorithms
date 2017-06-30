@@ -6,7 +6,7 @@ total = 6
 coins = [3,2,4]
 
 def minCoinBottomUp(total, coins):
-    T = [sys.maxint for _ in range(total+1)]
+    T = [sys.maxsize for _ in range(total+1)]
     R = [-1 for _ in range(total+1)]
 
     T[0] = 0
@@ -22,14 +22,14 @@ def minCoinBottomUp(total, coins):
 
 def printCoinCombination(R, coins):
     if R[len(R)-1] == -1:
-        print "No solution possible"
+        print("No solution possible")
         return
     start = len(R)-1
-    print "Coins used"
+    print("Coins used")
     while start != 0:
         j = R[start]
-        print coins[j]
+        print((coins[j]))
         start -= coins[j]
-    print ""
+    print("")
 
-print minCoinBottomUp(total, coins)
+print((minCoinBottomUp(total, coins)))

@@ -15,6 +15,6 @@ def decrypt(word):
         prev = ascii
     return result
 
-print decrypt(word)
+print(decrypt(word))
 
-print ord("a"), ord("z")
+print(ord("a"), ord("z"))

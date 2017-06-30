@@ -11,7 +11,7 @@ def find_unique_delivery_id(delivery_ids):
         else:
             ids_occurences[id] += 1
 
-    for id, occurences in ids_occurences.iteritems():
+    for id, occurences in ids_occurences.items():
         if occurences == 1:
             return id
 
@@ -25,4 +25,4 @@ def find_unique_delivery_id_xor(delivery_ids):
     return unique_id
 
 # print find_unique_delivery_id(delivery_ids)
-print find_unique_delivery_id_xor(delivery_ids)
+print((find_unique_delivery_id_xor(delivery_ids)))

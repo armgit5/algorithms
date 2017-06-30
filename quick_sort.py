@@ -1,6 +1,6 @@
 # unsorted = [2, 4, 6, 8, 3]
 unsorted = [2,1,3,6,8,5,7,4]
-unsorted = map(int, ['31415926535897932384626433832795', '1', '3', '10', '3', '5'])
+unsorted = list(map(int, ['31415926535897932384626433832795', '1', '3', '10', '3', '5']))
 
 
 def partition(a, start, end):
@@ -27,4 +27,4 @@ def quickSort(a, start, end):
 
 
 quickSort(unsorted, 0, len(unsorted) - 1)
-print '\n'.join(map(str, unsorted))
+print('\n'.join(map(str, unsorted)))

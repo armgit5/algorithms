@@ -106,14 +106,14 @@ def squarefree(x):
 
 def firststrategy(word):
     n = len(word)
-    bword = set([j for j in xrange(n) if word[j] == 'b'])
-    cword = set([k for k in xrange(n) if word[k] == 'c'])
+    bword = set([j for j in range(n) if word[j] == 'b'])
+    cword = set([k for k in range(n) if word[k] == 'c'])
     counter = 0
     for i, v in enumerate(word):
         if word[i] == 'a':
             ip = i + 1
             free = squarefree(ip)
-            for t in xrange(n):
+            for t in range(n):
                 kp = free * (t ** 2)
                 k = kp - 1
                 if k >= n:

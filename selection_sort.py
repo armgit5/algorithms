@@ -13,4 +13,4 @@ def selectionSort(a):
         a[iMin] = temp
     return a
 
-print selectionSort(unsorted)
+print(selectionSort(unsorted))

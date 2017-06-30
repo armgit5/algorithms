@@ -49,5 +49,5 @@ class Graph():
 
     def toString(self):
         for edge in self.allEdges:
-            print edge.node1, edge.node2, edge.weight
+            print(edge.node1, edge.node2, edge.weight)
 

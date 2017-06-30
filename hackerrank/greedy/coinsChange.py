@@ -37,8 +37,8 @@ def printCoinChangingSolution(total, coins):
 def printActualSolution(result, total, coins, pos):
     if total == 0:
         for r in result:
-            print r, " "
-        print ""
+            print((r, " "))
+        print("")
 
     for i in range(pos, len(coins)):
         if total >= coins[i]:
@@ -46,7 +46,7 @@ def printActualSolution(result, total, coins, pos):
             printActualSolution(result, total-coins[i], coins, i)
             result.pop()
 
-print getWays(n, c)
-print getWayOnSpace(n, c)
-print ""
+print((getWays(n, c)))
+print((getWayOnSpace(n, c)))
+print("")
 printCoinChangingSolution(n, c)

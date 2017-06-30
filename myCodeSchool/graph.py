@@ -98,7 +98,7 @@ class Graph(object):
         def map_conversion(adjacency_list_for_node):
             if adjacency_list_for_node is None:
                 return None
-            return map(convert_to_names, adjacency_list_for_node)
+            return list(map(convert_to_names, adjacency_list_for_node))
 
         return [map_conversion(adjacency_list_for_node)
                 for adjacency_list_for_node in adjacency_list]
@@ -241,23 +241,23 @@ import pprint
 
 pp = pprint.PrettyPrinter(indent=2)
 
-print "Edge List"
+print("Edge List")
 pp.pprint(graph.get_edge_list_names())
 
-print "\nAdjacency List"
+print("\nAdjacency List")
 pp.pprint(graph.get_adjacency_list_names())
 
-print "\nAdjacency Matrix"
+print("\nAdjacency Matrix")
 pp.pprint(graph.get_adjacency_matrix())
 
-print "\nDepth First Search"
+print("\nDepth First Search")
 pp.pprint(graph.dfs_names(2))
 
 # Should print:
 # Depth First Search
 # ['London', 'Shanghai', 'Mountain View', 'San Francisco', 'Berlin', 'Sao Paolo']
 
-print "\nBreadth First Search"
+print("\nBreadth First Search")
 pp.pprint(graph.bfs_names(2))
 # test error reporting
 # pp.pprint(['Sao Paolo', 'Mountain View', 'San Francisco', 'London', 'Shanghai', 'Berlin'])

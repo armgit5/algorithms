@@ -6,7 +6,7 @@ import sys
 n, s, t, r_0, g, seed, p = [9, 0, 2, 1, 3, 4, 7]
 # n, s, t, r_0, g, seed, p = [10000000, 2288596, 8380906, 5121, 69, 3662, 5585]
 
-min_jump = sys.maxint
+min_jump = sys.maxsize
 
 def circularWalk(n, s, t, r_0, g, seed, p):
     R = []
@@ -16,7 +16,7 @@ def circularWalk(n, s, t, r_0, g, seed, p):
     if s == t:
         return 0
 
-    for i in xrange(n):
+    for i in range(n):
         R.append(current_r)
         current_r = (current_r * g + seed) % p
 
@@ -150,7 +150,7 @@ def circularWalk3(n, s, t, r_0, g, seed, p):
 
 def solve(N, S, T, R0, G, SEED, P):
     R = [R0]
-    for _ in xrange(N - 1):
+    for _ in range(N - 1):
         R.append((R[-1] * G + SEED) % P)
 
     def get(x):
@@ -162,12 +162,12 @@ def solve(N, S, T, R0, G, SEED, P):
     while not (start <= T <= end or start <= T - N <= end or start <= T + N <= end):
         newstart = start
         newend = end
-        for x in xrange(start, oldstart + 1):
+        for x in range(start, oldstart + 1):
             j = get(x)
             newstart = min(newstart, x - j)
             newend = max(newend, x + j)
 
-        for x in xrange(oldend, end + 1):
+        for x in range(oldend, end + 1):
             j = get(x)
             newstart = min(newstart, x - j)
             newend = max(newend, x + j)
@@ -178,5 +178,5 @@ def solve(N, S, T, R0, G, SEED, P):
     return ans
 
 
-print circularWalk3(n, s, t, r_0, g, seed, p)
+print(circularWalk3(n, s, t, r_0, g, seed, p))
 

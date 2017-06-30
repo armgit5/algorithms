@@ -45,14 +45,14 @@ def propertyOfString(s):
         palindrome = palindromic_substrings(substring)
 
         result = palindrome
-        print palindrome
+        print(palindrome)
         for p in palindrome:
             for i in range(1, len(p) + 1):
                 subp = p[:i]
                 if subp not in result:
                     result.append(subp)
 
-        print len(result)
+        print(len(result))
 
 
 propertyOfString(s)

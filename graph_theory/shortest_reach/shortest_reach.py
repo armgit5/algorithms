@@ -50,26 +50,26 @@ def print_distances(s, n, distances):
 
 
 with open('shortest_reach2.txt') as f:
-    q = map(int, raw_input().split())[0]
+    q = map(int, input().split())[0]
 
-    for q in xrange(q):
-        n, m = raw_input().strip().split(' ')
+    for q in range(q):
+        n, m = input().strip().split(' ')
         n, m = [int(n), int(m)]
 
         graph = Graph()
 
-        for _ in xrange(m):
-            node_from, node_to = raw_input().strip().split(' ')
+        for _ in range(m):
+            node_from, node_to = input().strip().split(' ')
             node_from, node_to = [int(node_from), int(node_to)]
             graph.insert_node(node_from, node_to)
             graph.insert_node(node_to, node_from)
 
-        s = map(int, raw_input().split())[0]
+        s = map(int, input().split())[0]
 
         visited_list = [False] * (n + 1)
 
         distances = graph.bfs(s,visited_list)
-        print print_distances(s, n, distances)
+        print((print_distances(s, n, distances)))
 
 
 

@@ -113,7 +113,7 @@ class BST(object):
             return None
 
         # case 1: node has right subtree
-        print current
+        print(current)
         if current.right != None:
             return self.findMin(current.right)
 
@@ -131,7 +131,7 @@ class BST(object):
     def to_string(self, root="root"):
         if root == "root": root = self.root
         if root == None: return root
-        print root.value
+        print((root.value))
         self.to_string(root.left)
         self.to_string(root.right)
 
@@ -149,7 +149,7 @@ def isBinarySearchtreeHelper(root, minValue, maxValue):
         return False
 
 def isBinarySearchtree(root):
-    return isBinarySearchtreeHelper(root, -sys.maxint, sys.maxint)
+    return isBinarySearchtreeHelper(root, -sys.maxsize, sys.maxsize)
 
 # # Set up tree
 # tree = BST(7)
@@ -180,5 +180,5 @@ tree.insert(17)
 # tree.delete("root", 15)
 # tree.to_string("root")
 
-print tree.in_order_successor(5).value
+print((tree.in_order_successor(5).value))
 

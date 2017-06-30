@@ -2,7 +2,7 @@ Nodes = 0
 Edges = 0
 
 with open('even_tree.txt') as f:
-    Nodes, Edges = map(int, next(f).split())
+    Nodes, Edges = list(map(int, next(f).split()))
 
     class Graph:
 
@@ -18,16 +18,16 @@ with open('even_tree.txt') as f:
 
 
     if __name__ == "__main__":
-        nodes_list = [Graph() for _ in xrange(Nodes)]
+        nodes_list = [Graph() for _ in range(Nodes)]
         even_tree_count = 0
-        for _ in xrange(Edges):
-            child, parent = map(int, next(f).split())
+        for _ in range(Edges):
+            child, parent = list(map(int, next(f).split()))
             # print child, parent
             nodes_list[child - 1].add_parent(nodes_list[parent - 1])
 
         for node in nodes_list:
-            print  node.size
+            print(node.size)
             if node.size % 2 == 0 and node.parent != None:
                 even_tree_count += 1
 
-        print even_tree_count
+        print(even_tree_count)

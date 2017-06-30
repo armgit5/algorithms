@@ -1,5 +1,5 @@
-from graph import Graph
-from minimumHeap import BinaryMinHeap
+from .graph import Graph
+from .minimumHeap import BinaryMinHeap
 
 def primMST(graph):
 
@@ -54,4 +54,4 @@ graph.addEdge("E","F",2)
 result = primMST(graph)
 
 for e in result:
-    print e.node1.id, e.node2.id, e.weight
+    print(e.node1.id, e.node2.id, e.weight)

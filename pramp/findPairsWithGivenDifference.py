@@ -1,4 +1,24 @@
 # https://www.pramp.com/question/XdMZJgZoAnFXqwjJwnpZ
+
+def findPairsHashMap(arr, k):
+    hashMap = {}
+    for a in arr:
+        hashMap[a] = 0
+
+    result = []
+
+    def getY(x, k):
+        y = x - k
+        return y
+
+    for x in arr:
+        y = getY(x, k)
+        if y in hashMap:
+            result.append([x, y])
+
+    return result
+
+
 def binarySearch(a, x):
     start = 0
     end = len(a) - 1
@@ -67,7 +87,7 @@ def findPairsWithGivenDifference(arr, k):
 
 arr = [0, -1, -2, 2, 1]
 k = 1
-print findPairsWithGivenDifferenceBrute(arr, k)
-print findPairsWithGivenDifferenceBinarySearch(arr, k)
-print findPairsWithGivenDifference(arr, k)
-
+print((findPairsWithGivenDifferenceBrute(arr, k)))
+print((findPairsWithGivenDifferenceBinarySearch(arr, k)))
+print((findPairsWithGivenDifference(arr, k)))
+print((findPairsHashMap(arr, k)))

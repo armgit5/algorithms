@@ -6,10 +6,10 @@ class LinkedListNode:
 
 def string(a):
     temp = a
-    print temp.value
-    while temp.next:
-        print temp.next.value
-        temp = temp.next
+    print((temp.value))
+    while temp.__next__:
+        print((temp.next.value))
+        temp = temp.__next__
 
 a = LinkedListNode('A')
 b = LinkedListNode('B')
@@ -21,10 +21,10 @@ b.next = c
 
 def delete_node(b):
 
-    if b.next:
+    if b.__next__:
 
         b.value = b.next.value
-        b.next = b.next.next
+        b.next = b.next.__next__
     else:
         b = None
         b.next = None

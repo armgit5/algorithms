@@ -43,4 +43,4 @@ class NumOfCusters():
         return count
 
 cluster = NumOfCusters()
-print cluster.findNumberOfClsters(matrix)
+print(cluster.findNumberOfClsters(matrix))

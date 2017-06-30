@@ -36,6 +36,6 @@ def knapSackDy(W, wt, val):
     return K[n][W]
 
 
-print knapSack(W, wt, val, n)
-print knapSackDy(W, wt, val)
+print(knapSack(W, wt, val, n))
+print(knapSackDy(W, wt, val))
 

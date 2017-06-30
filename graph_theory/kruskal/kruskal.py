@@ -96,7 +96,7 @@ class Graph():
 
     def toString(self):
         for edge in self.allEdges:
-            print edge.node1, edge.node2, edge.weight
+            print((edge.node1, edge.node2, edge.weight))
 
 def getMST(graph):
 
@@ -106,7 +106,7 @@ def getMST(graph):
 
     disjoinSet = DisjointSet()
 
-    for k, node in graph.allNodes.iteritems():
+    for k, node in graph.allNodes.items():
         disjoinSet.makeSet(k)
 
     resultEdge = []
@@ -127,11 +127,11 @@ with open('kruskal2.txt') as f:
 
     graph = Graph()
 
-    n, m = raw_input().strip().split(' ')
+    n, m = input().strip().split(' ')
     n, m = [int(n), int(m)]
 
-    for i in xrange(m):
-        id1, id2, weight = raw_input().strip().split(' ')
+    for i in range(m):
+        id1, id2, weight = input().strip().split(' ')
         id1, id2, weight = [int(id1), int(id2), int(weight)]
 
         graph.addEdge(id1, id2, weight)
@@ -140,5 +140,5 @@ with open('kruskal2.txt') as f:
     total = 0
     for e in result:
         total += e.weight
-    print total
+    print(total)
 

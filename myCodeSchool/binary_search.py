@@ -30,7 +30,7 @@ def findCount(A, n, x):
 
     return last - first + 1
 
-print findCount(A, len(A)-1, 5)
+print((findCount(A, len(A)-1, 5)))
 
 
 # print binarySearch(A, len(A)-1, 10, 1)

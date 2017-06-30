@@ -30,4 +30,4 @@ def hasBalancedBrackets(str):
         return 0
 
 
-print hasBalancedBrackets(str)
+print(hasBalancedBrackets(str))

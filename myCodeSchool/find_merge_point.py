@@ -11,8 +11,8 @@ class LinkedList(object):
     def append(self, new_element):
         current = self.head
         if self.head:
-            while current.next:
-                current = current.next
+            while current.__next__:
+                current = current.__next__
             current.next = new_element
         else:
             self.head = new_element
@@ -28,7 +28,7 @@ class LinkedList(object):
         while counter <= position and current:
             if counter == position:
                 return current
-            current = current.next
+            current = current.__next__
             counter += 1
         return None
 
@@ -42,9 +42,9 @@ class LinkedList(object):
         if position > 1:
             while counter < position and current:
                 if counter == position - 1:
-                    new_element.next = current.next
+                    new_element.next = current.__next__
                     current.next = new_element
-                current = current.next
+                current = current.__next__
                 counter += 1
         if position == 1:
             new_element.next = self.head
@@ -54,21 +54,21 @@ class LinkedList(object):
         """Delete the first node with a given value."""
         current = self.head
         previous = None
-        while value != self.head.value and current.next:
+        while value != self.head.value and current.__next__:
             previous = current
-            current = current.next
+            current = current.__next__
         if current.value == value:
             if previous:
-                previous.next = current.next
+                previous.next = current.__next__
             else:
-                self.head = current.next
+                self.head = current.__next__
 
     def reverse(self):
         current = self.head
         prev = None
 
         while current != None:
-            next = current.next
+            next = current.__next__
             current.next = prev
             prev = current
             current = next
@@ -77,10 +77,10 @@ class LinkedList(object):
     def to_string(self):
         current = self.head
 
-        while current.next:
-            print current.value
-            current = current.next
-        print current.value
+        while current.__next__:
+            print(current.value)
+            current = current.__next__
+        print(current.value)
 
 
 

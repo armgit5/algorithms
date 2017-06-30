@@ -1,4 +1,4 @@
-from graph import Graph
+from .graph import Graph
 
 def topSortUtil(node, stack, visited):
     visited.append(node)
@@ -12,7 +12,7 @@ def topSortUtil(node, stack, visited):
 def topSort(graph):
     stack = []
     visited = []
-    for id, node in graph.allNodes.iteritems():
+    for id, node in graph.allNodes.items():
         if node in visited:
             continue
         topSortUtil(node, stack, visited)
@@ -29,4 +29,4 @@ graph.addEdge("D","F")
 graph.addEdge("E","F")
 graph.addEdge("F","G")
 
-print topSort(graph)
+print(topSort(graph))

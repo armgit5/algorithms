@@ -36,20 +36,20 @@ def insertionSort(ar):
     i = len(ar) - 2
     done = False
     while  i >= 0 and done == False:
-        print ar[i], key
+        print(ar[i], key)
         if ar[i] > key:
             ar[i+1] = ar[i]
-            print ' '.join(map(str, ar))
+            print(' '.join(map(str, ar)))
         elif ar[i] < key:
             ar[i+1] = key
-            print ' '.join(map(str, ar))
+            print(' '.join(map(str, ar)))
             done = True
         if i == 0 and done == False:
             ar[i] = key
-            print ' '.join(map(str, ar))
+            print(' '.join(map(str, ar)))
         i -= 1
 # print '\n'.join(map(str, insertionSort(map(int, unsorted))))
-ar = map(int, unsorted)
+ar = list(map(int, unsorted))
 
-print insertionSort(ar)
+print(insertionSort(ar))
 

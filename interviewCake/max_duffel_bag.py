@@ -18,7 +18,7 @@ def max_duffel_bag_value(cake_tuples, capacity):
 
     max_values_at_capacities = [0] * (capacity + 1)
 
-    for current_capacity in xrange(capacity + 1):
+    for current_capacity in range(capacity + 1):
 
         current_max_value = 0
 
@@ -35,4 +35,4 @@ def max_duffel_bag_value(cake_tuples, capacity):
 
 
 
-print max_duffel_bag_value(cake_tuples, capacity)
+print(max_duffel_bag_value(cake_tuples, capacity))

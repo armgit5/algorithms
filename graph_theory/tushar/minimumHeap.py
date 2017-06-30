@@ -115,10 +115,10 @@ class BinaryMinHeap():
 
     def printHeap(self):
         for n in self.allNodes:
-            print n.key, n.weight
+            print(n.key, n.weight)
 
     def printPositionMap(self):
-        print self.nodePosition
+        print(self.nodePosition)
 
     def empty(self):
         return len(self.allNodes) == 0

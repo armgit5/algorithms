@@ -24,7 +24,7 @@ def getShortestBruteForce(arr, str):
             if str[j] in countMap:
                 countMap[str[j]] += 1
             # if all char have been seen
-            if 0 not in countMap.values():
+            if 0 not in list(countMap.values()):
                 diff = j - i + 1
                 if diff < min:
                     min = diff
@@ -37,7 +37,7 @@ def getShortestBruteForce(arr, str):
         countMap = initCountMap()
     return result
 
-print getShortestBruteForce(arr, str)
+print(getShortestBruteForce(arr, str))
 
 # def getShortest2(arr, str):
 #     headIndex = 0
@@ -98,4 +98,4 @@ def getShortestUniqueSubstring(arr, str):
 
     return result
 
-print getShortestUniqueSubstring(arr, str)
+print(getShortestUniqueSubstring(arr, str))

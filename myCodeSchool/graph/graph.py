@@ -19,7 +19,7 @@ class Graph():
         node1Found, node2Found = False, False
         node1, node2 = None, None
 
-        for i in xrange(len(self.nodeList)):
+        for i in range(len(self.nodeList)):
             if self.nodeList[i].id == id1:
                 node1Found = True
                 node1 = self.nodeList[i]
@@ -38,7 +38,7 @@ class Graph():
 
 
         temp = Node(id2)
-        temp.next = node1.next
+        temp.next = node1.__next__
         node1.next = temp
 
     def getNode(self, id):
@@ -47,10 +47,10 @@ class Graph():
                 return self.nodeList[i]
 
     def printGraph(self):
-        for i in xrange(len(self.nodeList)):
+        for i in range(len(self.nodeList)):
             curr = self.nodeList[i]
             while curr != None:
-                print curr.id
-                curr = curr.next
+                print(curr.id)
+                curr = curr.__next__
 
-            print ""
+            print("")

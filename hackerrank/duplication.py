@@ -20,4 +20,4 @@ with open('duplication.txt') as f:
 
         for i in range(n):
             x = int(next(f).strip())
-            print s_expaneded[x]
+            print(s_expaneded[x])

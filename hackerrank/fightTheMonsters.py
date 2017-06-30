@@ -40,10 +40,10 @@ def getMaxMonsters(n, hit, t, h):
 
 
 with open('fightTheMonsters.txt') as f:
-    n, hit, t = raw_input().strip().split(' ')
+    n, hit, t = input().strip().split(' ')
     n, hit, t = [int(n), int(hit), int(t)]
-    h = map(int, raw_input().strip().split(' '))
+    h = list(map(int, input().strip().split(' ')))
 
     result = getMaxMonsters(n, hit, t, h)
-    print result
+    print(result)
 

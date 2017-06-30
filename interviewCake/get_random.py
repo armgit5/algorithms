@@ -10,7 +10,7 @@ def shuffle(the_list):
         return the_list
 
     last_index = len(the_list)-1
-    for choosen_index in xrange(len(the_list)-1):
+    for choosen_index in range(len(the_list)-1):
         random_index = get_random(choosen_index, last_index)
 
         if random_index != choosen_index:
@@ -20,4 +20,4 @@ def shuffle(the_list):
 
 the_list = [1,2,3,4,5,6,7]
 shuffle(the_list)
-print the_list
+print(the_list)

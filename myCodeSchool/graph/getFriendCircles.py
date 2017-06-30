@@ -7,7 +7,7 @@ friends = [[1,1,0,0],
 
 def findFriends(friends, visited, id):
 
-    for i in xrange(len(friends)):
+    for i in range(len(friends)):
         if visited[i] == False and friends[id][i] == 1:
             visited[i] = True
             findFriends(friends, visited, i)
@@ -19,7 +19,7 @@ def getFriendCircles(friends):
     noOfCircles = 0
     visited = [False] * len(friends)
 
-    for i in xrange(len(friends)):
+    for i in range(len(friends)):
         if visited[i] == False:
             noOfCircles += 1
             visited[i] = True
@@ -28,4 +28,4 @@ def getFriendCircles(friends):
     return noOfCircles
 
 
-print getFriendCircles(friends)
+print(getFriendCircles(friends))

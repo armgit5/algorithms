@@ -1,5 +1,5 @@
-from graph import Graph
-from disjointSet import DisjointSet
+from .graph import Graph
+from .disjointSet import DisjointSet
 
 def getMST(graph):
     allEdges = graph.allEdges
@@ -7,7 +7,7 @@ def getMST(graph):
 
     disjoinSet = DisjointSet()
 
-    for k, node in graph.allNodes.iteritems():
+    for k, node in graph.allNodes.items():
         disjoinSet.makeSet(k)
 
     resultEdge = []
@@ -37,5 +37,5 @@ graph.addEdge("E","F",2)
 
 result = getMST(graph)
 for e in result:
-    print e.node1.id, e.node2.id, e.weight
+    print(e.node1.id, e.node2.id, e.weight)
 

@@ -15,20 +15,20 @@ def spiral(M):
         if dir == 0:
             for i in range(R+1):
                 a = M[T][i]
-                print M[T][i]
+                print(M[T][i])
             T += 1
         if dir == 1:
             for i in range(T,B+1):
-                print M[i][R]
+                print(M[i][R])
             R -= 1
         if dir == 2:
             for i in range(R,L-1,-1):
                 a = M[B][i]
-                print M[B][i]
+                print(M[B][i])
             B -= 1
         if dir == 3:
             for i in range(B,T,-1):
-                print M[i][L]
+                print(M[i][L])
             L += 1
         dir = (dir + 1) % 4
 

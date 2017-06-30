@@ -11,9 +11,9 @@ while i < len(s) - 1:
     else:
         i += 1
 if s == "":
-    print "Empty String"
+    print("Empty String")
 else:
-    print s
+    print(s)
 
 
 

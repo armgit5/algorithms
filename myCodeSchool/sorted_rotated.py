@@ -4,7 +4,7 @@ A = [11,12,15,18,19,20,21,2,5,6,8]
 # A = [1,2,3,4,5,6]
 
 def linearSearch(A):
-    min = sys.maxint
+    min = sys.maxsize
     min_index = 0
     for i in range(len(A)):
         if A[i] < min:
@@ -60,4 +60,4 @@ def binarySearchX(A, x):
 
 # print linearSearch(A)
 # print binarySearch(A)
-print binarySearchX(A, 29)
+print((binarySearchX(A, 29)))

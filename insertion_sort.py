@@ -32,7 +32,7 @@ def insertionSort(a):
 
         a[hole] = value
         if i >= 1:
-            print ' '.join(map(str, a))
+            print(' '.join(map(str, a)))
 
-print insertionSort(ar)
+print(insertionSort(ar))
 

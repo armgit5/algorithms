@@ -25,7 +25,7 @@ def reverseWords_stack(arr):
             output.append(c)
         output.append(' ')
 
-    print output
+    print(output)
 
 def reverseWords(arr):
 
@@ -53,6 +53,7 @@ def mirrorReverse(arr, start, end):
         start += 1
         end -= 1
 
-# reverseWords(arr)
-# print arr
 reverseWords_stack(arr)
+reverseWords(arr)
+print(arr)
+

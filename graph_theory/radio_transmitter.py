@@ -1,7 +1,7 @@
 with open('radio_transmitter') as f:
-    n, k = map(int, next(f).split())
+    n, k = list(map(int, next(f).split()))
 
-    houses = map(int, next(f).split())
+    houses = list(map(int, next(f).split()))
     houses.sort()
 
     i = 1
@@ -27,5 +27,5 @@ with open('radio_transmitter') as f:
 
         i += 1
 
-    print ans
+    print(ans)
 

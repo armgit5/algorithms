@@ -90,17 +90,17 @@ class Graph(object):
 
 with open('road_and_libraries3.txt') as f:
 
-    q = int(raw_input().strip())
+    q = int(input().strip())
 
-    for a0 in xrange(q):
+    for a0 in range(q):
 
         graph = Graph()
         graph._clear_visited()
 
-        n, m, x, y = raw_input().strip().split(' ')
+        n, m, x, y = input().strip().split(' ')
         n, m, x, y = [int(n), int(m), int(x), int(y)]
-        for a1 in xrange(m):
-            city_1, city_2 = raw_input().strip().split(' ')
+        for a1 in range(m):
+            city_1, city_2 = input().strip().split(' ')
             city_1, city_2 = [int(city_1), int(city_2)]
 
             graph.insert_edge(city_1, city_2)
@@ -122,6 +122,6 @@ with open('road_and_libraries3.txt') as f:
                 else:
                     total_cost += (graph.count - 1) * x
 
-        print total_cost
+        print(total_cost)
 
 

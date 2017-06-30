@@ -1,4 +1,4 @@
-from graph import Graph
+from .graph import Graph
 
 def topologicalSort(graph):
     inDegrees = {}
@@ -7,12 +7,12 @@ def topologicalSort(graph):
 
     for i in range(len(nodes)):
         temp = nodes[i]
-        temp = temp.next
+        temp = temp.__next__
 
         while temp:
             count = 0 if temp.id not in inDegrees else inDegrees[temp.id]
             inDegrees[temp.id] = count+1
-            temp = temp.next
+            temp = temp.__next__
 
     for i in range(len(nodes)):
         temp = nodes[i]
@@ -23,15 +23,15 @@ def topologicalSort(graph):
 
     while len(zeroDegreeList) != 0:
         curr = zeroDegreeList.pop(0)
-        print curr.id
-        temp = curr.next
+        print(curr.id)
+        temp = curr.__next__
 
         while temp:
             prevInDegree = inDegrees[temp.id]
             inDegrees[temp.id] = prevInDegree-1
             if prevInDegree == 1:
                 zeroDegreeList.append(graph.getNode(temp.id))
-            temp = temp.next
+            temp = temp.__next__
 
 
 graph = Graph()

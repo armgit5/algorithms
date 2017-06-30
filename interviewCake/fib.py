@@ -39,7 +39,7 @@ def fibOneSpace(n):
     prev = 1
     current = 0
 
-    for _ in xrange(n - 1):
+    for _ in range(n - 1):
         current = prev + prev_prev
         prev_prev = prev
         prev = current
@@ -47,8 +47,8 @@ def fibOneSpace(n):
     return current
 
 times = 0
-print fibNoMem(11), times
+print(fibNoMem(11), times)
 times = 0
-print fib(11), times
+print(fib(11), times)
 times = 0
-print fibOneSpace(11), times
+print(fibOneSpace(11), times)

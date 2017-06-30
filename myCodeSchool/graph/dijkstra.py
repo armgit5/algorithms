@@ -18,29 +18,29 @@ class Graph():
 
     def addEdge(self, id1, id2, dist):
 
-        for i in xrange(len(self.nodeList)):
+        for i in range(len(self.nodeList)):
             if self.nodeList[i].id == id1:
                 node1 = self.nodeList[i]
                 node2 = Node(id2, dist)
 
-                node2.next = node1.next
+                node2.next = node1.__next__
                 node1.next = node2
 
                 break
 
     def printGraph(self):
-        for i in xrange(len(self.nodeList)):
+        for i in range(len(self.nodeList)):
             curr = self.nodeList[i]
 
             while curr != None:
-                print curr.id, curr.parentDist
-                curr = curr.next
+                print(curr.id, curr.parentDist)
+                curr = curr.__next__
 
-            print ""
+            print("")
 
     def findShortest_Dijkstra(self, start):
 
-        dist = [sys.maxint] * len(self.nodeList)
+        dist = [sys.maxsize] * len(self.nodeList)
         prev = [-1] * len(self.nodeList)
         visited = [False] * len(self.nodeList)
 
@@ -50,7 +50,7 @@ class Graph():
         while len(Q) != 0:
             currNode = Q.pop(0)
             visited[currNode.id] = True
-            neighborNode = currNode.next if currNode.next else None
+            neighborNode = currNode.__next__ if currNode.__next__ else None
             while neighborNode:
                 if visited[neighborNode.id] == False:
                     alt = dist[currNode.id] + neighborNode.parentDist
@@ -59,9 +59,9 @@ class Graph():
                         prev[neighborNode.id] = currNode.id
                         dist[neighborNode.id] = alt
                         Q.append(self.nodeList[neighborNode.id])
-                neighborNode = neighborNode.next
+                neighborNode = neighborNode.__next__
 
-        print dist, prev
+        print(dist, prev)
 
 graph = Graph()
 

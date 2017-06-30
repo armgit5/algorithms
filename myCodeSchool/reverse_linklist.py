@@ -105,16 +105,16 @@ class LinkedList(object):
         current = self.head
 
         while current.next:
-            print current.value
+            print((current.value))
             current = current.next
-        print current.value
+        print((current.value))
 
     def to_string_recur(self, head):
 
         if head == None:
             return
 
-        print head.value
+        print((head.value))
         self.to_string_recur(head.next)
 
     def to_string_recur_rev(self, head):
@@ -122,7 +122,7 @@ class LinkedList(object):
         if head == None:
             return
         self.to_string_recur_rev(head.next)
-        print head.value
+        print((head.value))
 
 
 
