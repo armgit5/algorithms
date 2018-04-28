@@ -5,8 +5,6 @@ package IDeserve.LongestPalindromicSubstring;
 
 public class LongestPalinSub {
 
-
-
     public static String longestPalinSubString(String T) {
         int[] P = new int[T.length()];
         int C = 0, R = 0;
@@ -91,9 +89,8 @@ public class LongestPalinSub {
 //        String T = "$#A#B#A#B#A#B#A#@";
 //        String T = "babad";
         String T = "cbbd";
-//        int max = longestPalinSubInt(T);
-//        System.out.println(max);
         System.out.println(longestPalinSubString(T));
         System.out.println(LPS(T));
+
     }
 }
