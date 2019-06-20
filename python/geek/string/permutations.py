@@ -24,7 +24,7 @@ def permute(array, left, right):
 output = []
 
 class Solution(object):
-    def permute(self, nums):
+    def permuteUnique(self, nums):
         """
         :type nums: List[int]
         :rtype: List[List[int]]
@@ -35,7 +35,8 @@ class Solution(object):
     def permuteIntArray(self, array, left, right):
 
         if left == right:
-            self.output.append(list(array))
+            if array not in self.output: # Permute unique
+                self.output.append(list(array)) # Use list(array) to make a copy of the array
         else:
             for i in range(left, right + 1):
                 array[left], array[i] = array[i], array[left]
@@ -45,4 +46,4 @@ class Solution(object):
         return self.output
 
 s = Solution()
-print(s.permute([1,2,3]))
+print(s.permute([1,1,2]))
