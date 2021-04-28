@@ -6,7 +6,7 @@
 
 class URL_Shortener:
     url2id = {}
-    id = 1
+    id = 61
 
     def shorten_url_base10(self, original_url):
 
@@ -39,11 +39,11 @@ class URL_Shortener:
         ret = []
 
         # Loop to find the index of id in characters
-        # id 0-61 = 0-Z, if id = 62 -> id = 10
+        # id 0-61 = 0-Z, if id = 61 -> return is Z
         while id > 0:
             val = id % base
             ret.append(characters[val])
-            id = id // 62
+            id = id // base
 
         return "".join(ret[::-1]) # Convert ["0", "1"] to 10
 
