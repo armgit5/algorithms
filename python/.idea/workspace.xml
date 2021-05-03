@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ec5cbe-3b8a-4b2a-8bb2-069035e50b5e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/LuckyNumber/luckyNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/WordSearch/wordSearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/binaryGap/binaryGap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/boundedMax/boundedMax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/convertBinaryNum/getDecimalValue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/jumpGame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/largestNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/longestStrChain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/palindromeLinkedList/palindromeLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/removePalindromic/removePalindromic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daily_coding/radixSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daily_coding/sortDates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/journeyToTheMoon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/journeyToTheMoon.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/journeyToTheMoon2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/minimumMoves.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/minimumMoves.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/minimumMoves2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/quickestWayUp/quickestWayUp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/quickestWayUp/quickestWayUp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/quickestWayUp/quickestWayUp2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/storyOfATree/storyOfATree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/storyOfATree/storyOfATree.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/bestTimeStock/maxProfit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/minEleAdd/minEleAdd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/AbstractFactoryPattern" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/AbstractFactoryPattern" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/BuilderPattern" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/BuilderPattern" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/CircleUndirectedGraph" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/CircleUndirectedGraph" afterDir="false" />
@@ -43,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/../c++/KDistinctElements" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/KDistinctElements" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/LexicoSmallestStringByK" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/LexicoSmallestStringByK" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/MaxSumBinaryTree" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/MaxSumBinaryTree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c++/MinNumSquaresEqN" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/MinNumSquaresEqN" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/MinimumStepToReachOne" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/MinimumStepToReachOne" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/MyCodeSchool/BinarySearchFirstOrLast" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/MyCodeSchool/BinarySearchFirstOrLast" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/MyCodeSchool/BinarySearchTree" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/MyCodeSchool/BinarySearchTree" afterDir="false" />
@@ -50,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/../c++/PalindromePartitioning" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/PalindromePartitioning" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/PowerOf4OrNot" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/PowerOf4OrNot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/PrintZigZag" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/PrintZigZag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c++/PrototypePattern" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/PrototypePattern" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/PythagoreanTriplet" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/PythagoreanTriplet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/RevserseLinkedList" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/RevserseLinkedList" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/SerializeBinaryTree" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/SerializeBinaryTree" afterDir="false" />
@@ -60,7 +40,6 @@
       <change beforePath="$PROJECT_DIR$/../c++/SubArraySum" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/SubArraySum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/TwoPrimeNumbers" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/TwoPrimeNumbers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube/shorten_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtube/shorten_url.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +79,7 @@
       <recent name="$PROJECT_DIR$/hackerrank" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.boundedMax">
+  <component name="RunManager" selected="Python.minEleAdd">
     <configuration name="boundedMax" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="luckyNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="maxProfit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +130,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/LuckyNumber" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/bestTimeStock" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LuckyNumber/luckyNumber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/bestTimeStock/maxProfit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="minEleAdd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/minEleAdd" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/minEleAdd/minEleAdd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,41 +185,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="removePalindromic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/removePalindromic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/removePalindromic/removePalindromic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.luckyNumber" />
-      <item itemvalue="Python.removePalindromic" />
       <item itemvalue="Python.jumpGame" />
       <item itemvalue="Python.palindromeLinkedList" />
       <item itemvalue="Python.boundedMax" />
+      <item itemvalue="Python.maxProfit" />
+      <item itemvalue="Python.minEleAdd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.minEleAdd" />
+        <item itemvalue="Python.maxProfit" />
         <item itemvalue="Python.boundedMax" />
         <item itemvalue="Python.palindromeLinkedList" />
         <item itemvalue="Python.jumpGame" />
-        <item itemvalue="Python.luckyNumber" />
-        <item itemvalue="Python.removePalindromic" />
       </list>
     </recent_temporary>
   </component>
@@ -237,41 +216,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="858" height="221" key="GridCell.Tab.0.bottom" timestamp="1619598255394">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state width="496" height="122" key="GridCell.Tab.0.bottom" timestamp="1620040795039">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1013" height="122" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1617357615123" />
     <state width="501" height="122" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1618998716900" />
+    <state width="496" height="122" key="GridCell.Tab.0.bottom/0.23.1280.733@0.23.1280.733" timestamp="1620040795039" />
     <state width="501" height="122" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.727@0.23.1280.727" timestamp="1619151865101" />
     <state width="501" height="122" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.728@0.23.1280.728" timestamp="1619161689905" />
     <state width="501" height="122" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.729@0.23.1280.729" timestamp="1619159970209" />
+    <state width="496" height="134" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1619778149955" />
     <state width="858" height="221" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255394" />
-    <state width="858" height="221" key="GridCell.Tab.0.center" timestamp="1619598255393">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state width="496" height="122" key="GridCell.Tab.0.center" timestamp="1620040795037">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1013" height="122" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1617357615122" />
     <state width="501" height="122" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1618998716899" />
+    <state width="496" height="122" key="GridCell.Tab.0.center/0.23.1280.733@0.23.1280.733" timestamp="1620040795037" />
     <state width="501" height="122" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.727@0.23.1280.727" timestamp="1619151865099" />
     <state width="501" height="122" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.728@0.23.1280.728" timestamp="1619161689903" />
     <state width="501" height="122" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.729@0.23.1280.729" timestamp="1619159970207" />
+    <state width="496" height="134" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1619778149953" />
     <state width="858" height="221" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255393" />
-    <state width="858" height="221" key="GridCell.Tab.0.left" timestamp="1619598255393">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state width="496" height="122" key="GridCell.Tab.0.left" timestamp="1620040795037">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1013" height="122" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1617357615122" />
     <state width="501" height="122" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1618998716899" />
+    <state width="496" height="122" key="GridCell.Tab.0.left/0.23.1280.733@0.23.1280.733" timestamp="1620040795037" />
     <state width="501" height="122" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.727@0.23.1280.727" timestamp="1619151865096" />
     <state width="501" height="122" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.728@0.23.1280.728" timestamp="1619161689903" />
     <state width="501" height="122" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.729@0.23.1280.729" timestamp="1619159970207" />
+    <state width="496" height="134" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1619778149952" />
     <state width="858" height="221" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255393" />
-    <state width="858" height="221" key="GridCell.Tab.0.right" timestamp="1619598255394">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state width="496" height="122" key="GridCell.Tab.0.right" timestamp="1620040795038">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1013" height="122" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1617357615123" />
     <state width="501" height="122" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1618998716900" />
+    <state width="496" height="122" key="GridCell.Tab.0.right/0.23.1280.733@0.23.1280.733" timestamp="1620040795038" />
     <state width="501" height="122" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.727@0.23.1280.727" timestamp="1619151865100" />
     <state width="501" height="122" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.728@0.23.1280.728" timestamp="1619161689904" />
     <state width="501" height="122" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.729@0.23.1280.729" timestamp="1619159970208" />
+    <state width="496" height="134" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1619778149954" />
     <state width="858" height="221" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255394" />
     <state width="858" height="221" key="GridCell.Tab.1.bottom" timestamp="1619598255397">
       <screen x="0" y="23" width="1280" height="730" />
