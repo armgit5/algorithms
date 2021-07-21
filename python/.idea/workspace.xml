@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ec5cbe-3b8a-4b2a-8bb2-069035e50b5e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/bestTimeStock/maxProfit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/minEleAdd/minEleAdd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/buildArray/buildArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/courseSchedule/course.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/cricicalConnection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/divisibleByK/divisibleByK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/floodFill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/hammingWeight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/islandPerimeter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/maxRepeatingSub/maxRepeatingSub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/minRemoveParentheses/min.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/pascalTriangle/pascalTriangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/preOrder/preOrder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/sort2BinaryTrees/sort2BinaryTrees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/swapNodesInPairs/swapNodesInPairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/AbstractFactoryPattern" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/AbstractFactoryPattern" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/BuilderPattern" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/BuilderPattern" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c++/CircleUndirectedGraph" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/CircleUndirectedGraph" afterDir="false" />
@@ -79,29 +90,8 @@
       <recent name="$PROJECT_DIR$/hackerrank" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.minEleAdd">
-    <configuration name="boundedMax" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/boundedMax" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/boundedMax/boundedMax.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="jumpGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.hammingWeight">
+    <configuration name="cricicalConnection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/jumpGame.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/cricicalConnection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maxProfit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="floodFill" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/bestTimeStock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/bestTimeStock/maxProfit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/floodFill.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="minEleAdd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hammingWeight" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/minEleAdd" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/minEleAdd/minEleAdd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/hammingWeight.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="palindromeLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="islandPerimeter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,11 +162,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/palindromeLinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/palindromeLinkedList/palindromeLinkedList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/islandPerimeter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maxRepeatingSub" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/maxRepeatingSub" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/maxRepeatingSub/maxRepeatingSub.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,19 +197,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.jumpGame" />
-      <item itemvalue="Python.palindromeLinkedList" />
-      <item itemvalue="Python.boundedMax" />
-      <item itemvalue="Python.maxProfit" />
-      <item itemvalue="Python.minEleAdd" />
+      <item itemvalue="Python.maxRepeatingSub" />
+      <item itemvalue="Python.floodFill" />
+      <item itemvalue="Python.islandPerimeter" />
+      <item itemvalue="Python.cricicalConnection" />
+      <item itemvalue="Python.hammingWeight" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.minEleAdd" />
-        <item itemvalue="Python.maxProfit" />
-        <item itemvalue="Python.boundedMax" />
-        <item itemvalue="Python.palindromeLinkedList" />
-        <item itemvalue="Python.jumpGame" />
+        <item itemvalue="Python.hammingWeight" />
+        <item itemvalue="Python.cricicalConnection" />
+        <item itemvalue="Python.islandPerimeter" />
+        <item itemvalue="Python.floodFill" />
+        <item itemvalue="Python.maxRepeatingSub" />
       </list>
     </recent_temporary>
   </component>
@@ -216,70 +227,126 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="496" height="122" key="GridCell.Tab.0.bottom" timestamp="1620040795039">
-      <screen x="0" y="23" width="1280" height="733" />
+    <state width="458" height="118" key="GridCell.Tab.0.bottom" timestamp="1626855826200">
+      <screen x="1280" y="23" width="1080" height="1897" />
     </state>
-    <state width="1013" height="122" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1617357615123" />
-    <state width="501" height="122" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1618998716900" />
+    <state width="399" height="120" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1620980105532" />
+    <state width="496" height="120" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1620977364143" />
+    <state width="850" height="221" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1620292873877" />
     <state width="496" height="122" key="GridCell.Tab.0.bottom/0.23.1280.733@0.23.1280.733" timestamp="1620040795039" />
+    <state width="841" height="302" key="GridCell.Tab.0.bottom/1280.23.1080.1897/0.23.1280.723@1280.23.1080.1897" timestamp="1623665226646" />
+    <state width="778" height="256" key="GridCell.Tab.0.bottom/1280.23.1080.1897/0.23.1280.726@1280.23.1080.1897" timestamp="1625814548711" />
+    <state width="458" height="118" key="GridCell.Tab.0.bottom/1280.23.1080.1897/0.23.1280.728@1280.23.1080.1897" timestamp="1626855826200" />
+    <state width="458" height="118" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.722@1280.23.1920.1057" timestamp="1626236345976" />
+    <state width="458" height="119" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.726@0.23.1280.726" timestamp="1626155294307" />
+    <state width="458" height="141" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.726@1280.23.1920.1057" timestamp="1624446188096" />
     <state width="501" height="122" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.727@0.23.1280.727" timestamp="1619151865101" />
     <state width="501" height="122" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.728@0.23.1280.728" timestamp="1619161689905" />
+    <state width="458" height="141" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.728@1280.23.1920.1057" timestamp="1624270164175" />
     <state width="501" height="122" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.729@0.23.1280.729" timestamp="1619159970209" />
-    <state width="496" height="134" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1619778149955" />
+    <state width="772" height="217" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1626422481528" />
     <state width="858" height="221" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255394" />
-    <state width="496" height="122" key="GridCell.Tab.0.center" timestamp="1620040795037">
-      <screen x="0" y="23" width="1280" height="733" />
+    <state width="772" height="217" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1626422850832" />
+    <state width="458" height="118" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1626339778593" />
+    <state width="458" height="118" key="GridCell.Tab.0.center" timestamp="1626855826195">
+      <screen x="1280" y="23" width="1080" height="1897" />
     </state>
-    <state width="1013" height="122" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1617357615122" />
-    <state width="501" height="122" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1618998716899" />
+    <state width="399" height="120" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1620980105528" />
+    <state width="496" height="120" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1620977364141" />
+    <state width="850" height="221" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1620292873876" />
     <state width="496" height="122" key="GridCell.Tab.0.center/0.23.1280.733@0.23.1280.733" timestamp="1620040795037" />
+    <state width="841" height="302" key="GridCell.Tab.0.center/1280.23.1080.1897/0.23.1280.723@1280.23.1080.1897" timestamp="1623665226644" />
+    <state width="778" height="256" key="GridCell.Tab.0.center/1280.23.1080.1897/0.23.1280.726@1280.23.1080.1897" timestamp="1625814548709" />
+    <state width="458" height="118" key="GridCell.Tab.0.center/1280.23.1080.1897/0.23.1280.728@1280.23.1080.1897" timestamp="1626855826195" />
+    <state width="458" height="118" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.722@1280.23.1920.1057" timestamp="1626236345973" />
+    <state width="458" height="119" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.726@0.23.1280.726" timestamp="1626155294305" />
+    <state width="458" height="141" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.726@1280.23.1920.1057" timestamp="1624446188093" />
     <state width="501" height="122" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.727@0.23.1280.727" timestamp="1619151865099" />
     <state width="501" height="122" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.728@0.23.1280.728" timestamp="1619161689903" />
+    <state width="458" height="141" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.728@1280.23.1920.1057" timestamp="1624270164174" />
     <state width="501" height="122" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.729@0.23.1280.729" timestamp="1619159970207" />
-    <state width="496" height="134" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1619778149953" />
+    <state width="772" height="217" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1626422481526" />
     <state width="858" height="221" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255393" />
-    <state width="496" height="122" key="GridCell.Tab.0.left" timestamp="1620040795037">
-      <screen x="0" y="23" width="1280" height="733" />
+    <state width="772" height="217" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1626422850830" />
+    <state width="458" height="118" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1626339778590" />
+    <state width="458" height="118" key="GridCell.Tab.0.left" timestamp="1626855826192">
+      <screen x="1280" y="23" width="1080" height="1897" />
     </state>
-    <state width="1013" height="122" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1617357615122" />
-    <state width="501" height="122" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1618998716899" />
+    <state width="399" height="120" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1620980105527" />
+    <state width="496" height="120" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1620977364140" />
+    <state width="850" height="221" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1620292873875" />
     <state width="496" height="122" key="GridCell.Tab.0.left/0.23.1280.733@0.23.1280.733" timestamp="1620040795037" />
+    <state width="841" height="302" key="GridCell.Tab.0.left/1280.23.1080.1897/0.23.1280.723@1280.23.1080.1897" timestamp="1623665226644" />
+    <state width="778" height="256" key="GridCell.Tab.0.left/1280.23.1080.1897/0.23.1280.726@1280.23.1080.1897" timestamp="1625814548708" />
+    <state width="458" height="118" key="GridCell.Tab.0.left/1280.23.1080.1897/0.23.1280.728@1280.23.1080.1897" timestamp="1626855826192" />
+    <state width="458" height="118" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.722@1280.23.1920.1057" timestamp="1626236345967" />
+    <state width="458" height="119" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.726@0.23.1280.726" timestamp="1626155294302" />
+    <state width="458" height="141" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.726@1280.23.1920.1057" timestamp="1624446188090" />
     <state width="501" height="122" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.727@0.23.1280.727" timestamp="1619151865096" />
     <state width="501" height="122" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.728@0.23.1280.728" timestamp="1619161689903" />
+    <state width="458" height="141" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.728@1280.23.1920.1057" timestamp="1624270164173" />
     <state width="501" height="122" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.729@0.23.1280.729" timestamp="1619159970207" />
-    <state width="496" height="134" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1619778149952" />
+    <state width="772" height="217" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1626422481525" />
     <state width="858" height="221" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255393" />
-    <state width="496" height="122" key="GridCell.Tab.0.right" timestamp="1620040795038">
-      <screen x="0" y="23" width="1280" height="733" />
+    <state width="772" height="217" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1626422850830" />
+    <state width="458" height="118" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1626339778589" />
+    <state width="458" height="118" key="GridCell.Tab.0.right" timestamp="1626855826198">
+      <screen x="1280" y="23" width="1080" height="1897" />
     </state>
-    <state width="1013" height="122" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1617357615123" />
-    <state width="501" height="122" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1618998716900" />
+    <state width="399" height="120" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1620980105528" />
+    <state width="496" height="120" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1620977364142" />
+    <state width="850" height="221" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1620292873876" />
     <state width="496" height="122" key="GridCell.Tab.0.right/0.23.1280.733@0.23.1280.733" timestamp="1620040795038" />
+    <state width="841" height="302" key="GridCell.Tab.0.right/1280.23.1080.1897/0.23.1280.723@1280.23.1080.1897" timestamp="1623665226645" />
+    <state width="778" height="256" key="GridCell.Tab.0.right/1280.23.1080.1897/0.23.1280.726@1280.23.1080.1897" timestamp="1625814548710" />
+    <state width="458" height="118" key="GridCell.Tab.0.right/1280.23.1080.1897/0.23.1280.728@1280.23.1080.1897" timestamp="1626855826198" />
+    <state width="458" height="118" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.722@1280.23.1920.1057" timestamp="1626236345974" />
+    <state width="458" height="119" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.726@0.23.1280.726" timestamp="1626155294306" />
+    <state width="458" height="141" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.726@1280.23.1920.1057" timestamp="1624446188094" />
     <state width="501" height="122" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.727@0.23.1280.727" timestamp="1619151865100" />
     <state width="501" height="122" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.728@0.23.1280.728" timestamp="1619161689904" />
+    <state width="458" height="141" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.728@1280.23.1920.1057" timestamp="1624270164174" />
     <state width="501" height="122" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.729@0.23.1280.729" timestamp="1619159970208" />
-    <state width="496" height="134" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1619778149954" />
+    <state width="772" height="217" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1626422481527" />
     <state width="858" height="221" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255394" />
-    <state width="858" height="221" key="GridCell.Tab.1.bottom" timestamp="1619598255397">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state width="772" height="217" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1626422850831" />
+    <state width="458" height="118" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1626339778591" />
+    <state width="772" height="217" key="GridCell.Tab.1.bottom" timestamp="1626422850834">
+      <screen x="1280" y="23" width="1920" height="1057" />
     </state>
+    <state width="850" height="221" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1620292873878" />
+    <state width="841" height="302" key="GridCell.Tab.1.bottom/1280.23.1080.1897/0.23.1280.723@1280.23.1080.1897" timestamp="1623665226648" />
+    <state width="778" height="256" key="GridCell.Tab.1.bottom/1280.23.1080.1897/0.23.1280.726@1280.23.1080.1897" timestamp="1625814548715" />
+    <state width="772" height="217" key="GridCell.Tab.1.bottom/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1626422481530" />
     <state width="858" height="221" key="GridCell.Tab.1.bottom/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255397" />
-    <state width="858" height="221" key="GridCell.Tab.1.center" timestamp="1619598255396">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state width="772" height="217" key="GridCell.Tab.1.bottom/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1626422850834" />
+    <state width="772" height="217" key="GridCell.Tab.1.center" timestamp="1626422850833">
+      <screen x="1280" y="23" width="1920" height="1057" />
     </state>
+    <state width="850" height="221" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1620292873877" />
+    <state width="841" height="302" key="GridCell.Tab.1.center/1280.23.1080.1897/0.23.1280.723@1280.23.1080.1897" timestamp="1623665226647" />
+    <state width="778" height="256" key="GridCell.Tab.1.center/1280.23.1080.1897/0.23.1280.726@1280.23.1080.1897" timestamp="1625814548713" />
+    <state width="772" height="217" key="GridCell.Tab.1.center/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1626422481529" />
     <state width="858" height="221" key="GridCell.Tab.1.center/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255396" />
-    <state width="858" height="221" key="GridCell.Tab.1.left" timestamp="1619598255395">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state width="772" height="217" key="GridCell.Tab.1.center/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1626422850833" />
+    <state width="772" height="217" key="GridCell.Tab.1.left" timestamp="1626422850832">
+      <screen x="1280" y="23" width="1920" height="1057" />
     </state>
+    <state width="850" height="221" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1620292873877" />
+    <state width="841" height="302" key="GridCell.Tab.1.left/1280.23.1080.1897/0.23.1280.723@1280.23.1080.1897" timestamp="1623665226647" />
+    <state width="778" height="256" key="GridCell.Tab.1.left/1280.23.1080.1897/0.23.1280.726@1280.23.1080.1897" timestamp="1625814548712" />
+    <state width="772" height="217" key="GridCell.Tab.1.left/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1626422481528" />
     <state width="858" height="221" key="GridCell.Tab.1.left/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255395" />
-    <state width="858" height="221" key="GridCell.Tab.1.right" timestamp="1619598255396">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state width="772" height="217" key="GridCell.Tab.1.left/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1626422850832" />
+    <state width="772" height="217" key="GridCell.Tab.1.right" timestamp="1626422850834">
+      <screen x="1280" y="23" width="1920" height="1057" />
     </state>
+    <state width="850" height="221" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1620292873878" />
+    <state width="841" height="302" key="GridCell.Tab.1.right/1280.23.1080.1897/0.23.1280.723@1280.23.1080.1897" timestamp="1623665226648" />
+    <state width="778" height="256" key="GridCell.Tab.1.right/1280.23.1080.1897/0.23.1280.726@1280.23.1080.1897" timestamp="1625814548714" />
+    <state width="772" height="217" key="GridCell.Tab.1.right/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1626422481530" />
     <state width="858" height="221" key="GridCell.Tab.1.right/1280.23.1920.1057/0.23.1280.730@0.23.1280.730" timestamp="1619598255396" />
-    <state x="368" y="117" width="790" height="538" key="find.popup" timestamp="1617357354332">
-      <screen x="0" y="23" width="1280" height="727" />
-    </state>
-    <state x="368" y="117" width="790" height="538" key="find.popup/0.23.1280.727@0.23.1280.727" timestamp="1617357354332" />
+    <state width="772" height="217" key="GridCell.Tab.1.right/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1626422850834" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,6 +355,11 @@
           <url>file://$PROJECT_DIR$/LeetCode/Subsets/subsets.py</url>
           <line>18</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/buildArray/buildArray.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
